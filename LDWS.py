@@ -20,18 +20,18 @@ height, width = img_s.shape[:2]
 print(height, width)
 
 
-# Lane_side=input("Enter which lane you want to detect (Right/Left): \n")
-# print("WARNING: Please select coordiantes in accordance to which lane you want to depart to")
-# L1=input("Enter L1:")
-# L2=input("Enter L2:")
-# H1=input("Enter H1:")
-# H2=input("Enter H2:")
+Lane_side=input("Enter which lane you want to detect (Right/Left): \n")
+print("WARNING: Please select coordiantes in accordance to which lane you want to depart to")
+L1=input("Enter L1:")
+L2=input("Enter L2:")
+H1=input("Enter H1:")
+H2=input("Enter H2:")
 
 
-# if Lane_side=="Right":
-#     ctypes.windll.user32.MessageBoxW(0, "WARNINIG!! Vehicle departing towards the Right lane", "ALERT", 1)
-# elif Lane_side=="Left":
-#     ctypes.windll.user32.MessageBoxW(0, "WARNINIG!! Vehicle departing towards the Left lane", "ALERT", 1)
+if Lane_side=="Right":
+    ctypes.windll.user32.MessageBoxW(0, "WARNINIG!! Vehicle departing towards the Right lane", "ALERT", 1)
+elif Lane_side=="Left":
+    ctypes.windll.user32.MessageBoxW(0, "WARNINIG!! Vehicle departing towards the Left lane", "ALERT", 1)
 
 
 immage = 'image_6.jpg'
